@@ -86,8 +86,6 @@ data/incoming/
 
 The pipeline processes the file, validates and transforms the data, loads it into PostgreSQL, and moves the processed file to `data/processed/`.
 
-Failed or invalid files are moved to `data/rejected/`.
-
 PostgreSQL is organized into schemas such as:
 
 ```text
