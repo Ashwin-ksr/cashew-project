@@ -7,5 +7,5 @@ class OperationResult:
     message: str = ""
 
 @dataclass
-class FileLoadResult(OperationResult):
-    files_processed: int = 0
+class SQLiteLoadResult(OperationResult):
+    tables_processed: int = 0
